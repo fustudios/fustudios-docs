@@ -3,8 +3,6 @@ description: >-
   FU Studios augments and enhances NFT brands by adding utility to their JPGs through the creation of video games, music, videos and lore.
 ---
 
-# Fractional Uprising Studios
-
 > ### Disclaimer
 >
 > This is a working document and everything is subject to change.
@@ -15,4 +13,10 @@ description: >-
 >
 > If you have any feedback or questions, please contact us directly on [Discord](https://discord.com/invite/fxyyZCTaBS).
 
-FU Studios GitBook
+![](.gitbook/assets/FU_logo_black_bg.png)
+
+## Fractional Uprising Studios
+
+FU Studios augments and enhances NFT brands by adding utility to their JPGs through the creation of video games, music, videos and lore.
+
+Ownership is continuously distributed to participants who help **develop**, **promote**, **distribute** and **enjoy** these productions, creating a mutually beneficial symbiotic relationship between NFT communities and the Studio.

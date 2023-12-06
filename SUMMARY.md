@@ -1,19 +1,9 @@
 # Table of contents
 
-- [Overview](README.md)
-
-## FU Studios
-
-- [FU Studios](fustudios.md)
-
----
-
-- [Memberships](memberships.md)
-
-## FU Money
-
+- [FU Studios](README.md)
+- [Game Memberships](memberships.md)
 - [FU Money](fumoney.md)
 
-## Games
+## Productions
 
 - [Open Season](open-season.md)
