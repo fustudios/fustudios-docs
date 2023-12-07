@@ -28,12 +28,4 @@ FU games are **free to play** by anyone holding a Game Pass for the particular g
 
 ## [Game Points](#game-points)
 
-Each game title will give players the ability to earn points by performing different tasks. These points can be used in-game to enhance weapons, items and characters as well as be exchanged for $FU Money. Allocation of Game Points to external productions will be determined by the FU Studios team and will be analyzed on a one to one basis.
-
-### Utility
-
-- User base growth incentives.
-- Can upgrade/alter in-game items for a limited amount of time (weapon/health/speed).
-- Can cause havoc to other players. Cause other players to shake, blindness, pull a rug.
-- Can change dynamics of the game level.
-- Can be exchanged for $FU Money.
+Each game title will give players the ability to earn points by performing different tasks. These points can be used in-game to enhance weapons, items and characters as well as be exchanged for FU Money. Allocation of Game Points to external productions will be determined by the FU Studios team and will be analyzed on a one to one basis.
