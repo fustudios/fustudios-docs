@@ -1,5 +1,7 @@
 # Open Season
 
+![Open Season](.gitbook/assets/open-season.png)
+
 Play as a Remilio or a Crypto Punk in this battle royale third-person shooter which takes place in the Island of JPEG. Explore the Apes’ Swamp or Milady Village in search of weapons and loot.
 
 With three game modes to choose from, you can either chill shooting npc’s, kill your friends for points or enter into wager matches where the ultimate prize goes to the last man standing.
@@ -48,6 +50,19 @@ Membership types help production teams finance and promote their creations. The 
 - OG Membership
 - OS NFT Upgrades
 - OS Ambassador Membership
+
+### OG Memberships
+
+These were minted by individuals who helped the founding team build Open Season. These memberships are extremely exclusive and its holders should be blessed with fame, glory and infinite pleasures.
+
+Benefits
+
+- Early Access to all FU Studios productions
+- Studio Passes Distribution
+- OG Rare Weapons and Items
+- $FU Money Airdrop
+
+![OG Membership](.gitbook/assets/membership.png)
 
 ### Open Season NFT Upgrades
 
