@@ -1,22 +1,30 @@
 # Game Memberships
 
-Memberships help finance game productions while establishing mutually beneficial partnerships with entities helping promote those productions and expand its user base. They are either minted as a brand new NFT or existing NFTs are upgraded to FU Studios membership status increasing the utility of the collection.
+Memberships help finance productions while establishing mutually beneficial partnerships with entities helping promote those productions and expand its user base. They are either minted as a brand new NFT or existing NFTs are upgraded to FU Studios membership status increasing the utility of the collection.
 
 Membership benefits can include but are not limited to:
 
 > <a href="#early-access">Early Access</a> to FU Studios productions.
 
-> Unlimited distribution of <a href="#studio-passes">Studio Passes</a>.
+> Ability to mint <a href="#studio-passes">Studio Passes</a>.
 
 > <a href="#game-points">Game Points</a> Emission Rewards.
 
 ## [Early Access](#early-access)
 
-Membership holders get early access to all FU Studios productions and earn points for helping the team improve the gaming experience of each title.
+Membership holders get early access to FU Studios productions and can earn points for providing feedback and helping the team improve the quality of its productions.
 
 ## [Studio Passes](#studio-passes)
 
-FU games are **free to play** by anyone holding a Studio Pass. Membership holders can mint and distribute unlimited Studio Passes. A share of the game points earned by Studio Pass holders while playing the game are distributed to the membership holder who minted the pass. The more players a membership holder onboards and the more they play, the more points are earned.
+Studio Passes can come in many different flavors. **OG** and **Game** passes are the two types currently in existence.
+
+### OG Passes
+
+OG passes give its holders access to all FU Studio productions.
+
+### Game Passes
+
+FU games are **free to play** by anyone holding a Game Pass for the particular game. A share of the game points earned by Game Pass holders while playing the game are distributed to the members who distributed the pass. The more players a membership holder onboards and the more they play, the more points are earned.
 
 ## [Game Points](#game-points)
 
