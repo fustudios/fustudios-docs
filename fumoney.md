@@ -20,7 +20,7 @@ Access to locked areas with more experience points or character upgrades in the 
 
 #### Memberships
 
-Anyone is able to mint a membership by burning FU Money. This automatically gives them the right to distribute game passes and increase their chances of earning experience points.
+Anyone is able to mint a membership by burning FU Money. This automatically gives them the right to distribute Studio Passes and increase their chances of earning experience points.
 
 ## [Value Accrual](#value-accrual)
 
