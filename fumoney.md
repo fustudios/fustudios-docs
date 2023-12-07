@@ -49,9 +49,11 @@ A percentage of membership sales in Ether will be used to seed initial liquidity
 
 Divided between the founders and the core team members.
 
-### Growth - Points conversion (30%)
+### Growth (30%)
 
-The Growth share will be allocated to different FU Studios productions in order to promote user acquisition and exposure. In order to collect data and bootstrap the process the amount allocated to each production will initially be at the team’s discretion. Once the ecosystem is more mature the process will be voted on by FU token holders.
+The Growth share will be allocated to different FU Studios productions in order to promote user acquisition and exposure. Each production will have its own point system which will be distributed according to the production’s own incentive structures. Point holders will then be able to exchange their points for a share of $FUM from the production’s Growth allocation.
+
+In order to collect data and bootstrap the process the amount allocated to each production will initially be at the team’s discretion. Once the ecosystem is more mature the process will be voted on by FU token holders.
 
 ### FUture Productions (40%)
 
