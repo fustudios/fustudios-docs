@@ -1,4 +1,4 @@
-# Game Memberships
+# Memberships
 
 Memberships help finance productions while establishing mutually beneficial partnerships with entities helping promote those productions and expand its user base. They are either minted as a brand new NFT or existing NFTs are upgraded to FU Studios membership status increasing the utility of the collection.
 
