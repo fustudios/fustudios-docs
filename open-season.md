@@ -109,8 +109,7 @@ Offers for single individuals with a large following.
 **Benefits**
 
 - Early Game Access
-- Unlimited Game Passes
-- Membership Mint Capabilities
+- Mint Game Passes
 - Personalized Avatars - Only the owner of the NFT would be able to use that particular avatar.
 
 ## Open Season Revenue Model
