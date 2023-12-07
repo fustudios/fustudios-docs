@@ -58,30 +58,19 @@ Each holder gains the ability to upgrade their NFT. Many single upgrades can unl
 Upgrade NFT Example with a 10,000 collection.
 Price of the upgrade varies based on collection size.
 
-**Level 1**\
-0.025 Ξ (~$50)\
+**Individual**\
+0.05 Ξ (~$100)\
 Ability to mint Studio Pass
 
-**Level 2** - 50 NFTs upgrade\
-0.5% of the collection\
-1.25 Ξ (~$2,500)\
-NFT collection gets an in-game character
-
-**Level 3** - 500 NFTs upgrade\
+**Basic Package** - 500 NFTs upgrade\
 5% of the collection\
-12.5 Ξ (~$25,000)\
-Biome of the community is created
-
-**Level 4** - 1,000 NFTs upgrade\
-10% of the collection\
 25 Ξ (~$50,000)\
-Full NFT collection is created\
-User must be a holder to play as its NFT
+Single character player and biome
 
-|                       | **Mint Passes** | **Early Game Access** | **Single Character** | **Biome** | **Collection** |
-| --------------------- | --------------- | --------------------- | -------------------- | --------- | -------------- |
-| **Upgrades Required** | 1               | 1                     | 100                  | 500       | 1,000          |
-| **Unit Price**        | 0.025 Ξ         | 0.025 Ξ               | 2.5 Ξ                | 12.5 Ξ    | 25 Ξ           |
+|                       | **Mint Passes and Early Game Access** | **Single Character and Biome** |
+| --------------------- | ------------------------------------- | ------------------------------ |
+| **Upgrades Required** | 1                                     | 500                            |
+| **Unit Price**        | 0.05 Ξ                                | 25 Ξ                           |
 
 ### Packages
 
@@ -93,10 +82,10 @@ Full offers that are sold as bundles.
 > **Deluxe**\
 > The full collection as in-game characters, a detailed biome, early game access and unlimited Studio Pass mints to all NFT holders.
 
-|            | Mint Passes   | Early Game Access | Character  | Area  | Price |
-| ---------- | ------------- | ----------------- | ---------- | ----- | ----- |
-| **Deluxe** | WL Collection | x                 | Collection | Biome | 200 Ξ |
-| **Basic**  | -             | -                 | Single     | Biome | 20 Ξ  |
+|            | Mint Passes | Early Game Access | Character  | Area  | Price |
+| ---------- | ----------- | ----------------- | ---------- | ----- | ----- |
+| **Deluxe** | Collection  | x                 | Collection | Biome | 40 Ξ  |
+| **Basic**  | -           | -                 | Single     | Biome | 20 Ξ  |
 
 ### OS Ambassador Memberships
 
