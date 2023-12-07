@@ -95,9 +95,9 @@ Full offers that are sold as bundles.
 > Development of a full detailed biome and one in-game character representing the NFT collection.
 
 > **Deluxe**\
-> The full collection as in-game characters, a detailed biome, early game access and unlimited Studio Pass mints to all NFT holders.
+> The full collection as in-game characters, a detailed biome, early game access and unlimited Game Pass mints to all NFT holders.
 
-|            | Mint Passes | Early Game Access | Character  | Area  | Price |
+|            | Game Passes | Early Game Access | Character  | Area  | Price |
 | ---------- | ----------- | ----------------- | ---------- | ----- | ----- |
 | **Deluxe** | Collection  | x                 | Collection | Biome | 40 Ξ  |
 | **Basic**  | -           | -                 | Single     | Biome | 20 Ξ  |
