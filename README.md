@@ -1,6 +1,6 @@
 ---
 description: >-
-  FU Studios augments and enhances NFT brands by adding utility to their JPGs through the creation of video games, music, videos and lore.
+  A new approach to content creation.
 ---
 
 > ### Disclaimer
