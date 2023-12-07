@@ -75,7 +75,7 @@ Price of the upgrade varies based on collection size.
 
 **Individual**\
 0.05 Ξ (~$100)\
-Ability to mint Studio Pass
+Ability to mint Game Pass
 
 **Basic Package** - 500 NFTs upgrade\
 5% of the collection\
