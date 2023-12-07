@@ -43,7 +43,7 @@ Allocated to the Individuals who helped us build and launch Open Season and hold
 
 ### Liquidity Pool (5%)
 
-A percentage of membership sales in ETH will be used to seed initial liquidity. The ETH generated from transaction fees will be used for continuous development of FU Studios productions and the $FUM will be continuously burned and taken out of circulation.
+A percentage of membership sales in Ether will be used to seed initial liquidity to the $ETH/$FUM pool. The Ether generated from transaction fees will be used for continuous development of FU Studios productions and the $FUM will be continuously burned and taken out of circulation.
 
 ### Team (20%)
 
