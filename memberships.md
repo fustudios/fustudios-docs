@@ -4,7 +4,7 @@ Memberships help finance game productions while establishing mutually beneficial
 
 Membership benefits can include but are not limited to:
 
-> <a href="#early-access">Early Access</a> to all FU Studios productions.
+> <a href="#early-access">Early Access</a> to FU Studios productions.
 
 > Unlimited distribution of <a href="#studio-passes">Studio Passes</a>.
 
