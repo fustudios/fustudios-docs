@@ -37,25 +37,25 @@ The staked ETH can be claimed by burning a relative share of $FUM. As users clai
 
 ![Token Allocation](.gitbook/assets/pie.png)
 
-### OG Membership (5%)
-
-Allocated to the Individuals who helped us build and launch Open Season and hold the [membership NFT](https://opensea.io/collection/fustudiomembership). A total of 3 snapshots will be used to determine the final allocation share of each NFT holder. Only holders of the third snapshot will receive the airdrop. Holders that have held longer—measured by the 2 initial snapshots—will receive a greater share. Holders that held the NFT during the first two snapshots but didn’t hold the NFT on the third snapshot will not be eligible for the airdrop.The final snapshot will be taken on the day of the token launch.
-
 ### Liquidity Pool (5%)
 
 A percentage of membership sales in Ether will be used to seed initial liquidity to the $ETH/$FUM pool. The Ether generated from transaction fees will be used for continuous development of FU Studios productions and the $FUM will be continuously burned and taken out of circulation.
+
+### OG Membership (10%)
+
+Allocated to the Individuals who helped us build and launch Open Season and hold the [membership NFT](https://opensea.io/collection/fustudiomembership). A total of 3 snapshots will be used to determine the final allocation share of each NFT holder. Only holders of the third snapshot will receive the airdrop. Holders that have held longer—measured by the 2 initial snapshots—will receive a greater share. Holders that held the NFT during the first two snapshots but didn’t hold the NFT on the third snapshot will not be eligible for the airdrop.The final snapshot will be taken on the day of the token launch.
 
 ### Team (20%)
 
 Divided between the founders and the core team members.
 
-### Growth (30%)
+### Community (30%)
 
-The Growth share will be allocated to different FU Studios productions in order to promote user acquisition and exposure. Each production will have its own point system which will be distributed according to the production’s own incentive structures. Point holders will then be able to exchange their points for a share of $FUM from the production’s Growth allocation.
+The Community share will be allocated to different FU Studios productions in order to promote user acquisition and exposure. Each production will have its own point system which will be distributed according to the production’s own incentive structures. Point holders will then be able to exchange their points for a share of $FUM from the production’s Community allocation.
 
 In order to collect data and bootstrap the process the amount allocated to each production will initially be at the team’s discretion. Once the ecosystem is more mature the process will be voted on by FU token holders.
 
-### FUture Productions (40%)
+### FUture Productions (35%)
 
 Teams that want to become part of FU Studios must request FU Money allocation to existing token holders. Each request must be tied to a production idea containing a detailed description of the idea and its revenue model—how it will accrue value back to FU Money—tying the success of the production to the studio. Teams that pass the vote will be eligible to sell Memberships and Studio Passes to cover the production costs and receive part of the FUture production token allocation and become part of FU Studios.
 

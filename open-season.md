@@ -61,6 +61,7 @@ Benefits
 - Studio Passes Distribution
 - OG Rare Weapons and Items
 - $FU Money Airdrop
+- 5% of Open Season Wagering System
 
 ![OG Membership](.gitbook/assets/membership.png)
 
@@ -114,7 +115,7 @@ Offers for single individuals with a large following.
 
 ## Open Season Revenue Model
 
-All revenue is converted to staked ETH and deposited in the treasury.
+The revenue is converted to staked ETH and deposited in the treasury.
 
 - Game Tournaments
 - Wagering Systems
