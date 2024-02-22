@@ -60,7 +60,7 @@ Benefits
 - Early Access to all FU Studios productions
 - Studio Passes Distribution
 - OG Rare Weapons and Items
-- $FU Money Airdrop
+- $FUM Money Airdrop
 - 5% of Open Season Wagering System
 
 ![OG Membership](.gitbook/assets/membership.png)
