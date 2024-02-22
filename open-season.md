@@ -1,3 +1,5 @@
+# Open Season
+
 ![Open Season](.gitbook/assets/open-season.png)
 
 Play as Milady, Remilio or Bored Ape in this battle royale third-person shooter which takes place in the Island of JPEG. Explore the Apes’ Swamp or Milady Village in search of weapons and loot.
