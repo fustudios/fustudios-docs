@@ -2,7 +2,7 @@
 
 ![Open Season](.gitbook/assets/open-season.png)
 
-Play as a Remilio or a Crypto Punk in this battle royale third-person shooter which takes place in the Island of JPEG. Explore the Apes’ Swamp or Milady Village in search of weapons and loot.
+Play as Milady, Remilio or Bored Ape in this battle royale third-person shooter which takes place in the Island of JPEG. Explore the Apes’ Swamp or Milady Village in search of weapons and loot.
 
 With three game modes to choose from, you can either chill shooting npc’s, kill your friends for points or enter into wager matches where the ultimate prize goes to the last man standing.
 
