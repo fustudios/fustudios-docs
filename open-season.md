@@ -88,36 +88,23 @@ Each holder gains the ability to upgrade their NFT. Many single upgrades can unl
 **Example**
 
 Upgrade NFT Example with a 10,000 collection.
-Price of the upgrade varies based on collection size.
 
 **Individual**\
-0.05 Ξ (~$100)\
-Ability to mint Game Pass
+0.05 Ξ\
+Game Pass Distribution
 
-**Basic Package** - 500 NFTs upgrade\
-5% of the collection\
-25 Ξ (~$50,000)\
-Single character player and biome
+**Character** - 100 NFTs upgrade\
+5 Ξ\
+Single character player
 
-|                       | **Mint Passes and Early Game Access** | **Single Character and Biome** |
-| --------------------- | ------------------------------------- | ------------------------------ |
-| **Upgrades Required** | 1                                     | 500                            |
-| **Unit Price**        | 0.05 Ξ                                | 25 Ξ                           |
+**Biome** - 500 NFTs upgrade\
+25 Ξ\
+Full Biome
 
-### Packages
-
-Full offers that are sold as bundles.
-
-> **Basic**\
-> Development of a full detailed biome and one in-game character representing the NFT collection.
-
-> **Deluxe**\
-> The full collection as in-game characters, a detailed biome, early game access and unlimited Game Pass mints to all NFT holders.
-
-|            | Game Passes | Early Game Access | Character  | Area  | Price |
-| ---------- | ----------- | ----------------- | ---------- | ----- | ----- |
-| **Deluxe** | Collection  | x                 | Collection | Biome | 40 Ξ  |
-| **Basic**  | -           | -                 | Single     | Biome | 20 Ξ  |
+|                       | **Game Pass Distribution** | **Single Character** | **Biome** |
+| --------------------- | -------------------------- | -------------------- | --------- |
+| **Upgrades Required** | 1                          | 100                  | 500       |
+| **Aggregate Price**   | 0.05 Ξ                     | 5 Ξ                  | 25 Ξ      |
 
 ### OS Ambassador Memberships
 
