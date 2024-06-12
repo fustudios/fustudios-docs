@@ -1,31 +1,28 @@
-# Memberships
+There are 3 memberships that allow people to play FU Studios production: **Studio Membership**, **Upgraded NFT**, or **Game Pass**. 2 of these options are available today, **Game Passes are not available yet**.
 
-Memberships help finance productions while establishing mutually beneficial partnerships with entities helping promote those productions and expand its user base. They are either minted as a brand new NFT or existing NFTs are upgraded to FU Studios membership status increasing the utility of the collection.
+# Studio Membership
 
-Membership benefits can include but are not limited to:
+**How to acquire:** Purchased on the [Blur market](https://blur.io/collection/fustudiomembership).
+**Perks:**
 
-> <a href="#early-access">Early Access</a> to FU Studios productions.
+- Allows holders to play all FU Studios productions.
+- 10% of $FU supply goes to Studio Membership holders.
+- 5% of profits from wagering system will go to Studio Membership holders.
+- Early access to all FU Studios production.
+- Will be able to earn $FU during Beta.
 
-> Ability to mint <a href="#studio-passes">Studio Passes</a>.
+# Upgraded NFT
 
-> <a href="#game-points">Game Points</a> Emission Rewards.
+**How to acquire:** Owners of whitelisted NFT collections (such as BAYC, Milady, etc) are eligible to pay 0.05 $ETH to upgrade their NFT and play the corresponding FU Studio production.
+**Perks:**
 
-## [Early Access](#early-access)
+- Allows holders to play corresponding FU Studios production.
+- Will be able to earn $FU during Beta.
 
-Membership holders get early access to FU Studios productions and can earn points for providing feedback and helping the team improve the quality of its productions.
+# Game Pass _(Coming soon)_
 
-## [Studio Passes](#studio-passes)
+**How to acquire:** After Beta, anyone will be able to obtain a Game Pass and play the corresponding FU Studios production for free.
+**Perks:**
 
-Studio Passes can come in many different flavors. **OG** and **Game** passes are the two types currently in existence.
-
-### OG Passes
-
-OG passes give its holders access to all FU Studio productions.
-
-### Game Passes
-
-FU games are **free to play** by anyone holding a Game Pass for the particular game. A share of the game points earned by Game Pass holders while playing the game are distributed to the members who distributed the pass. The more players a membership holder onboards and the more they play, the more points are earned.
-
-## [Game Points](#game-points)
-
-Each game title will give players the ability to earn points by performing different tasks. These points can be used in-game to enhance weapons, items and characters as well as be exchanged for FU Money. Allocation of Game Points to external productions will be determined by the FU Studios team and will be analyzed on a one to one basis.
+- Allows holders to play corresponding FU Studios game for free.
+- Will be able to earn $FU after official production launch.
