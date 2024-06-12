@@ -7,7 +7,6 @@ There are 3 memberships that allow people to play FU Studios production: **Studi
 
 - Allows holders to play all FU Studios productions.
 - An airdrop of $FU supply goes to Studio Membership holders.
-- 5% of profits from wagering system will go to Studio Membership holders.
 - Early access to all FU Studios production.
 - Will be able to earn $FU during Beta.
 
