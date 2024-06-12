@@ -1,12 +1,12 @@
-# FU Money ($FUM)
+# FU Money ($FU)
 
 FU Money is what connects all FU Studios productions and supports the ecosystem. It has two main functions, <a href="#utility">**utility**</a> and <a href="#meme">**culture**</a>.
 
 ## [Utility](#utility)
 
-Inspired by EIP 1559 the utility function requires users to burn $FUM.
+Inspired by EIP 1559 the utility function requires users to burn $FU.
 
-### $FUM Burn Requirements
+### $FU Burn Requirements
 
 FU Studios productions will be required to support the FU Money economy by providing utility to the token if it makes sense for them to do so. The following are examples of token utility that could be added to productions:
 
@@ -50,7 +50,7 @@ Divided between the founders and the core team members.
 
 ### Community (30%)
 
-The Community share will be allocated to different FU Studios productions in order to promote user acquisition and exposure. Each production will have its own point system which will be distributed according to the production’s own incentive structures. Point holders will then be able to exchange their points for a share of $FUM from the production’s Community allocation.
+The Community share will be allocated to different FU Studios productions in order to promote user acquisition and exposure. Each production will have its own point system which will be distributed according to the production’s own incentive structures. Point holders will then be able to exchange their points for a share of $FU from the production’s Community allocation.
 
 In order to collect data and bootstrap the process the amount allocated to each production will initially be at the team’s discretion. Once the ecosystem is more mature the process will be voted on by FU token holders.
 
