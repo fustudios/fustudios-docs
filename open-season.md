@@ -14,19 +14,29 @@ Whether you're a lone wolf or part of a team, the adrenaline-fueled action of Ba
 
 ## Cost and Access
 
-[Membership](https://blur.io/collection/fustudiomembership) holders are the only ones able to play the early access (alpha / beta / pre-releases) version of the game.
+[FU Studio NFT](https://blur.io/collection/fustudiomembership) holders are the only ones able to play the early access (alpha / beta / pre-releases) version of the game.
 
-Fully released versions of Open Season are **free to play**. Access to the game can be achieved by either holding a Membership or a **Game Pass**.
+Fully released versions of Open Season are **free to play**. Access to the game can be achieved by holding a **Game Pass**.
 
-### How to Play
+### Game Passes
 
-You must hold a **[Studio Membership](https://blur.io/collection/fustudiomembership)** or **Upgraded NFT** to play OpenSeason today.
+The only way to mint a Game Pass is if you have an **Access Code**. Membership holders can create an unlimited amount of Access Codes on the [Open Season website](https://openseason.games/login). **Any Game Pass that is minted using an Access Code is bound to the Membership NFT that has created that Access Code.**
 
-_Game Passes will be available after Beta._
+Access Codes are meant to be distributed through the web leveraging a membership holder’s social channels. If a user sells a FU Studio NFT, they are also selling the Access Code graph and all the Game Pass associations to that NFT. This means that the more Game Passes associated with an NFT, the more they should be worth, since a percentage of game earnings from the Game Passes are passed to the NFT associated with it.
+
+In order to mint a Game Pass a user must also have an Epic account. Because Game Passes are associated with an Epic account a user does not need to hold a web3 wallet or even know about crypto in order to play Open Season.
+
+To learn how you can get a Membership, distribute Access Codes or mint Game Passes check out our [explainer](#instructions).
+
+_Access Codes will be fully functional after Beta._
+
+### OpenSeason NFT Upgrades
+
+Each holder gains the ability to [upgrade their NFT](https://openseason.games/collections). Many single upgrades can unlock bigger upgrades adding more utility to the collection as a whole.
 
 After you have either acquired a Studio Membership or Upgraded NFT, head to the [Epic Store](https://store.epicgames.com/en-US/p/openseason-75e993) to get OpenSeason.
 
-### How to add new in-game Avatars and Biomes
+## How to add new in-game Avatars and Biomes
 
 We offer NFT projects a unique partnership opportunity that strengthens brand recognition and rewards holders long term. If you'd like your NFT's to be in-game avatars, get in touch with us to discuss how to have your entire collection whitelisted.
 
@@ -40,6 +50,43 @@ If you'd like to purchase any or all of the upgrades on behalf of your holders a
 | -------- | --------------------- | ------ | ------- |
 | Upgrades | 1                     | 100    | 500     |
 | Sum      | 0.05 $ETH             | 5 $ETH | 25 $ETH |
+
+## Instructions
+
+### Obtaining and verifying an NFT
+
+FU Studios NFTs can be purchased on [SudoSwap](https://sudoswap.xyz/#/browse/buy/fustudiomembership), [Blur](https://blur.io/collection/fustudiomembership) or any NFT marketplace that supports the collection. Once you have the NFT, head to the Open Season website and [sign in](https://openseason.games/login) to your Epic Account.
+
+![Sign In](.gitbook/assets/signin.png)
+
+![Connect](.gitbook/assets/connect.png)
+
+Once signed in, simply connect to the wallet holding the NFT and verify it by following the required steps.
+
+![Verify](.gitbook/assets/verify.png)
+
+### How to create Access Codes
+
+Access Codes can be created by any verified membership holder.
+Go to [Access Codes](https://openseason.games/account/access-codes) after you are signed in.
+
+Select the NFT in which the Access Code will reference. Any Game Pass created with this Access Code will be connected to this NFT.
+
+![Access Code](.gitbook/assets/create-code.png)
+
+Once created, simply copy and share the link to allow anyone to mint Game Passes and play Open Season for free.
+
+![Campaign](.gitbook/assets/campaign.png)
+
+### Game Pass Claim
+
+After you signed in go to the [Game Pass page](https://openseason.games/account/game-pass) and simply enter a valid Access Code in the input field:
+
+![Claim](.gitbook/assets/game-pass-claim.png)
+
+With a Game Pass you now have access to [play Open Season](https://store.epicgames.com/en-US/p/openseason-75e993)!
+
+\*Only Game Passes created from FU Studios NFTs or Upgraded NFTs can currently access the early version of the game.
 
 ## Official Links
 
