@@ -88,6 +88,68 @@ With a Game Pass you now have access to [play Open Season](https://store.epicgam
 
 \*Only Game Passes created from FU Studios NFTs or Upgraded NFTs can currently access the early version of the game.
 
+## Common Issues Connecting to the Game
+
+If you are having issues connecting to the game, even though you have a connected NFT with a Game Pass, make sure to try the below methods to fix the problem
+
+### Clear Game Cache
+
+To clear the cache and reset the connected account for a specific game in the Epic Games Launcher, you'll need to delete the saved data and cache files related to that game. Here’s how you can do it:
+
+### Step-by-Step Guide
+
+#### 1. Close the Game and Epic Games Launcher
+
+Make sure the game and the Epic Games Launcher are completely closed before you proceed.
+
+#### 2. Locate the Game's Save and Cache Files
+
+The location of these files may vary depending on the game. Here are some common locations:
+
+- **Local App Data Folder:**
+
+  - Press `Windows Key + R` to open the Run dialog box.
+  - Type `%localappdata%` and press Enter.
+  - Look for a folder with the name of the game or the game developer. For example, if the game is "OpenSeason," look for a folder named "OpenSeason" or similar.
+
+- **Documents Folder:**
+  - Some games store their save files in the Documents folder.
+  - Navigate to `C:\Users\[Your Username]\Documents` and look for a folder with the game's name.
+
+#### 3. Delete the Cache and Configuration Files
+
+Once you've located the game's folder, you need to delete or rename specific files or folders to reset the connected account.
+
+- **Example for OpenSeason:**
+  - Navigate to `%localappdata%\OpenSeason\Saved`.
+  - Delete the `Config` and `Logs` folders.
+
+Look for similar folders such as `Config`, `Saved`, or `Logs`. Deleting these will reset the game's settings, including account data.
+
+#### 4. Clear Epic Games Launcher Web Cache
+
+This step ensures that any cached account information in the launcher is also cleared.
+
+1. Open the Run dialog box by pressing `Windows Key + R`.
+2. Type `%localappdata%` and press Enter.
+3. Navigate to `EpicGamesLauncher\Saved`.
+4. Delete the `webcache` folder.
+
+#### 5. Restart Your Computer
+
+After deleting the relevant files, restart your computer to ensure all changes take effect.
+
+#### 6. Reopen the Epic Games Launcher and the Game
+
+Open the Epic Games Launcher and launch the game. You should be prompted to log in or reconnect your account since the cache and saved account data have been cleared.
+
+### Additional Tips
+
+- **Backup Important Data:**
+  Before deleting any files, consider backing up important data such as saved games or custom configurations.
+
+By following these steps, you should be able to clear the cache and reset the connected account for a specific game in the Epic Games Launcher.
+
 ## Official Links
 
 [Twitter](https://twitter.com/opunshizun)
