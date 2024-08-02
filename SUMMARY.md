@@ -1,7 +1,7 @@
 # Table of contents
 
 - [FU Studios](README.md)
-- [Memberships](memberships.md)
+- [Access](access.md)
 - [FU Money](fumoney.md)
 
 ## Productions
