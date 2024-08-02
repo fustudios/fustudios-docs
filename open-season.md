@@ -6,41 +6,41 @@ Play as Milady, Remilio or Bored Ape in this battle royale third-person shooter 
 
 Currently in its alpha version, this is the first game produced by FU Studios. It is the blueprint for future productions and it showcases how an idea can be funded, built, monetized and distributed using the incentive structures developed by FU Studios.
 
-### Battle Royale Gameplay
+## Gameplay
+
+### Battle Royale
 
 Players are dropped into a vast, dynamic battleground where they compete against each other for weapons and loot, until only one remains standing.
 
 Whether you're a lone wolf or part of a team, the adrenaline-fueled action of Battle Royale promises an exhilirating gaming experience.
 
+### Death Match
+
+Situated in a much smaller area, Death Match is action packed and fast paced. Players start with a pistol and are continuously respawned after they die. The match lasts 10 minutes and the one with the most kills wins.
+
+Death Matches come in **two flavors**:
+
+#### Normal
+
+Players can collect beans while they target practice on bots. Participants can join a match at any moment which increases the chances of playing with other real humans.
+
+#### Ranked Matches
+
+These are special matches announced in advance. A ranked match does not have bots and only starts after 10 players join the game. Players of ranked matches earn points and are ranked against other players. The leaderboard is persistent and 70% of the $FU Rewards are allocated to ranked players.
+
 ## Cost and Access
 
-[FU Studio NFT](https://blur.io/collection/fustudiomembership) holders are the only ones able to play the early access (alpha / beta / pre-releases) version of the game.
+Fully released versions of Open Season are **free to play**. [Access to the game](access.md) can be achieved by holding a **Game Pass** or a **Game Pass Pro**.
 
-Fully released versions of Open Season are **free to play**. Access to the game can be achieved by holding a **Game Pass**.
-
-### Game Passes
-
-The only way to mint a Game Pass is if you have an **Access Code**. Membership holders can create an unlimited amount of Access Codes on the [Open Season website](https://openseason.games/login). **Any Game Pass that is minted using an Access Code is bound to the Membership NFT that has created that Access Code.**
-
-Access Codes are meant to be distributed through the web leveraging a membership holder’s social channels. If a user sells a FU Studio NFT, they are also selling the Access Code graph and all the Game Pass associations to that NFT. This means that the more Game Passes associated with an NFT, the more they should be worth, since a percentage of game earnings from the Game Passes are passed to the NFT associated with it.
-
-In order to mint a Game Pass a user must also have an Epic account. Because Game Passes are associated with an Epic account a user does not need to hold a web3 wallet or even know about crypto in order to play Open Season.
-
-To learn how you can get a Membership, distribute Access Codes or mint Game Passes check out our [explainer](#instructions).
-
-_Access Codes will be fully functional after Beta._
-
-### OpenSeason NFT Upgrades
-
-Each holder gains the ability to [upgrade their NFT](https://openseason.games/collections). Many single upgrades can unlock bigger upgrades adding more utility to the collection as a whole.
-
-After you have either acquired a Studio Membership or Upgraded NFT, head to the [Epic Store](https://store.epicgames.com/en-US/p/openseason-75e993) to get OpenSeason.
+# Partnerships
 
 ## How to add new in-game Avatars and Biomes
 
 We offer NFT projects a unique partnership opportunity that strengthens brand recognition and rewards holders long term. If you'd like your NFT's to be in-game avatars, get in touch with us to discuss how to have your entire collection whitelisted.
 
-Once whitelisted, you'll have a progress dashboard to see how many people in your community have purchased Upgraded NFT's. These are the same upgrades that allow users to play OpenSeason. Once your community upgrade fees reach 5 $ETH in total, we'll make an in-game avatar. Once they reach 25 $ETH, we'll make an in-game Biome based on lore and themes of your project.
+Once whitelisted each NFT holder gains the ability to [upgrade their NFT](https://openseason.games/collections). Many single upgrades can unlock bigger upgrades adding more utility to the collection as a whole.
+
+Once your community upgrade fees reach 5 $ETH in total, we'll make an in-game avatar. Once they reach 25 $ETH, we'll make an in-game Biome based on lore and themes of your project.
 
 If you upgrades fall short of the 2 goals and you want to close the gap manually, we'll allow it.
 
