@@ -32,6 +32,10 @@ These are special matches announced in advance. A ranked match does not have bot
 
 Fully released versions of Open Season are **free to play**. [Access to the game](access.md) can be achieved by holding a **Game Pass** or a **Game Pass Pro**.
 
+## Beans
+
+[Collect beans](beans.md) while you play OpenSeason in exchange for $FU Money at the end of the Epoch (1 week).
+
 ## How to add new in-game Avatars and Biomes
 
 We offer NFT projects a unique partnership opportunity that strengthens brand recognition and rewards holders long term. If you'd like your NFT's to be in-game avatars, get in touch with us to discuss how to have your entire collection whitelisted.

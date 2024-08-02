@@ -1,9 +1,15 @@
 # Table of contents
 
 - [FU Studios](README.md)
-- [Access](access.md)
 - [FU Money](fumoney.md)
 
 ## Productions
 
-- [Open Season](open-season.md)
+- [OpenSeason](open-season.md)
+
+### OpenSeason Features
+
+- [Access](access.md)
+<!-- [Ranked Matches](rankedMatches.md) -->
+- [Beans](beans.md)
+<!-- [Characters and Communities](characters.md) -->
