@@ -23,13 +23,17 @@ Currently the formula for earning beans per match is `Kills + Deaths / BeansColl
 If that value is below 1 the player will suffer a penalty and earn only the fraction of the beans they collected.
 
 > Example:
+>
 > Alice finished the match with 20 kills, 10 deaths and 20 beans.
 > `20 + 10 / 20 = 1.5`
+>
 > Because she is above the 1 point cut she keeps all of her beans.
 >
 > Bob finished the match with 1 kill, 1 death and 40 beans.
 > ` 1 + 1 / 40 = 0.05`
+>
 > Because Bob is below 1 a penalty will be applied.
+>
 > The final amount of earned beans will be:
 > `40 * 0.05 = 2`
 
