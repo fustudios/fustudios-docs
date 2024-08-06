@@ -19,18 +19,18 @@ You can collect beans by either playing Ranked or non Ranked matches. The more b
 The amount of beans you earn is actually different from the amount you collect. Game Pass holders for example, only earn 80% of the beans they collect. The remaining 20% goes to the Game Pass Pro NFT that generated the access code for that Game Pass.
 
 The way the game is played also influences the amount of beans you earn. If you are a bean simp—only plays the game to collect beans and leaves— you will be penalized.
-Currently the formula for earning beans per match is `Kills + Deaths / BeansCollected`.
+Currently the formula for earning beans per match is `(Kills + Deaths) / BeansCollected`.
 If that value is below 1 the player will suffer a penalty and earn only the fraction of the beans they collected.
 
 > Example:
 >
 > Alice finished the match with 20 kills, 10 deaths and 20 beans.
-> `20 + 10 / 20 = 1.5`
+> `(20 + 10) / 20 = 1.5`
 >
 > Because she is above the 1 point cut she keeps all of her beans.
 >
 > Bob finished the match with 1 kill, 1 death and 40 beans.
-> ` 1 + 1 / 40 = 0.05`
+> `(1 + 1) / 40 = 0.05`
 >
 > Because Bob is below 1 a penalty will be applied.
 >
