@@ -51,4 +51,4 @@ In order to mint a Game Pass a user must also have an Epic account. Because Game
 
 To learn how you can get an NFT, distribute Access Codes or mint Game Passes check out our [explainer](open-season.md#instructions).
 
-_Access Codes are live. There are a total of 1,000 Game Passes to be claimed. Access code holders can currently claim 5 Game Passes per hour. We will be opening this up as we scale_
+_Access Codes are live. There are a total of 2,000 Game Passes to be claimed. Access code holders can currently claim 10 Game Passes per hour. We will be opening this up as we scale_
