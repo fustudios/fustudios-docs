@@ -11,5 +11,5 @@
 
 - [Access](access.md)
 - [Beans](beans.md)
-- [Ranked Matches](rankedMatches.md)
+- [Matches](osMatches.md)
 <!-- [Characters and Communities](characters.md) -->
