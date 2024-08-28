@@ -115,7 +115,7 @@ Below are the main differences between Ranked and Unranked matches:
 |-------------------|---------|----------|
 | Min. Players | 10 | 1 |
 | Duration | 10 min. | 10 min. |
-| Bots | Yes | Yes |
+| Bots | No | Yes |
 | Join Anytime | No | Yes |
 | Experience Points | Yes | No |
 | Beans | Yes | Yes |
