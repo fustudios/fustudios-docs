@@ -108,7 +108,7 @@ For the systems mentioned above, another factor to consider is the XP modifiers 
 
 ### Unranked Matches
 
-When a Ranked Match is not taking place all matches default to Unranked Matches. These can be joined at any time and don’t have a minimum player requirement. Players do not earn or lose XP while playing unranked matches. But they do require to be engaged in order to earn beans.
+When a Ranked Match is not taking place all matches default to Unranked Matches. These can be joined at any time and don’t have a minimum player requirement. Players do not earn or lose XP while playing unranked matches. But they do [require to be engaged in order to earn beans](beans.md###Beanscollectedvsbeansearned.).
 
 Below are the main differences between Ranked and Unranked matches:
 | Match | Ranked | Unranked |
@@ -124,7 +124,7 @@ Below are the main differences between Ranked and Unranked matches:
 
 OpenSeason is a skill-2-earn game. This means that 70% of the rewards are allocated to the top 50 ranked players while 20% is shared amongst the remaining players (10% is allocated to NFT projects).
 
-$FU Allocation is based on the amount of beans each player earns during an epoch and in case of the top 50 players, the multiplier amount applied based on their season XP.
+$FU Allocation is based on the amount of [beans each player earns](beans.md) during an epoch and in case of the top 50 players, the multiplier amount applied based on their season XP.
 
 ## Epochs and Seasons
 
