@@ -10,6 +10,6 @@
 ### OpenSeason Features
 
 - [Access](access.md)
-<!-- [Ranked Matches](rankedMatches.md) -->
 - [Beans](beans.md)
+- [Ranked Matches](rankedMatches.md)
 <!-- [Characters and Communities](characters.md) -->
