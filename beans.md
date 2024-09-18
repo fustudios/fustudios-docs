@@ -39,17 +39,77 @@ If that value is below 1 the player will suffer a penalty and earn only the frac
 
 In short. The less interaction (Death or Kills) during the match and the more beans you collect the less beans you get to keep.
 
-### Bean Multipliers and $FU allocation
+### Bean Multipliers
 
-**20%** of $FU is currently allocated to non ranked players. These are players that either have not played a ranked match or played and sucked so badly that they did not get any XP.
+The $FU share is calculated based on the share of the total beans each player earned after different multipliers are applied. It is important to note that the multipliers are applied at the end of each match, this means that multipliers are constantly changing during the Epoch and are affecting your earned beans in real time.
 
-**70%** goes to Ranked Players with XP greater than 0. A multiplier based on each player’s XP amount is added to all the beans they have earned (through ranked matches, non ranked and Game Passes associated with their Game Pass Pro)
+#### Rank Multiplier
 
-Their final share of Beans will translate to the final share of $FU they will earn for the Epoch.
+The multiplier formula is a simple quadratic function `f(x) = a * x^2 + b`, with coeficients calculated so that `f(bottomXp) = minMultiplier and f(topXp) = maxMultiplier`. Here's a simple JavaScript implementation:
 
-Beans reset to zero on each Epoch, giving new players the same chance of earning $FU as the veteran players.
+```
+function multiplierByXp(xp, bottomXp, topXp) {
+    let minMultiplier = 1;
+    let maxMultiplier = 5;
 
-**10%** is reserved to the communities behind OpenSeason’s characters.
+    let xpRange = topXp - bottomXp;
+    let c = (xpRange * xpRange) / (maxMultiplier - minMultiplier);
+    let xpAdjusted = xp - bottomXp;
+
+    return minMultiplier + xpAdjusted * xpAdjusted / c;
+}
+```
+
+### Example:
+
+Given the following results of a match with players having the current XP at the current Epoch with 100 active players:
+
+- Player 1: 30,000 XP, 5 Beans
+- Player 2: 20,000 XP, 10 Beans
+- Player 100: 500 XP, 30 Beans
+
+The following multiplier would be applied:
+
+1. Calculate the XP range:
+   `xpRange = 30,000 - 500 = 29,500`
+2. Compute the constant \( c \):
+   `c = (29,500 * 29,500) / (5 - 1) = 870,250,000 / 4 = 217,562,500`
+
+### For Player 1:
+
+- Adjusted XP: `xpAdjusted = 30,000 - 500 = 29,500`
+- Multiplier: `multiplier = 1 + (29,500 * 29,500 / 217,562,500) = 5`
+- Earned Beans: `5 * 5 = 25`
+
+### For Player 2:
+
+- Adjusted XP: `xpAdjusted = 20,000 - 500 = 19,500`
+- Multiplier: `multiplier = 1 + (19,500 * 19,500 / 217,562,500) = 2.74`
+- Earned Beans: `10 * 2.74 = 20.74`
+
+### For Player 100:
+
+- Adjusted XP: `xpAdjusted = 500 - 500 = 0`
+- Multiplier: `multiplier = 1 + (0 * 0 / 217,562,500) = 1`
+- Earned Beans: `30 * 1 = 30`
+
+The EXP (Epoch XP) is reset at the end of each Epoch.
+
+During the initial test phase of rewards, 100,000 $FU is being allocated per Epoch with plans to increase this amount as $FU utility is further developed.
+
+#### Game Pass Pro Multiplier
+
+Players who hold a Game Pass Pro will earn a multiplier based on how long they have the GPP activated for. Below is the formula for the multiplier:
+
+```
+AccrualSpeed = 2000000;
+Multiplier = 5;
+
+AccruedAmount = Days / (Days + AccrualSpeed)
+EarnedMultiplier = Multiplier  * AccruedAmount;
+```
+
+Where `Days` is how long the GPP has been active for.
 
 ### $FU Distribution
 

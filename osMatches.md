@@ -122,70 +122,10 @@ Below are the main differences between Ranked and Unranked matches:
 
 ## Reward Allocations
 
-OpenSeason is a skill-2-earn game. This means that 70% of the rewards are allocated to the top 50 ranked players while 20% is shared amongst the remaining players (10% is allocated to NFT projects).
-
-$FU Allocation is based on the amount of [beans each player earns](beans.md) during an epoch and in case of the top 50 players, the multiplier amount applied based on their season XP.
+$FU Allocation is based on the amount of [beans each player earns](beans.md) during a match and the different multipliers applied to those beans. The multipliers are applied at the end of each match.
 
 ## Epochs and Seasons
 
-An Epoch lasts for one week. At the end of each Epoch (Sunday, 00:00 UTC), beans are tallied , reset to zero and players receive their respective $FU earnings.
+An Epoch lasts for one week and during that week, players earn Epoch XP (EXP) which are used for the Epoch’s multipliers. At the end of each Epoch (Sunday, 00:00 UTC), beans are tallied, reset to zero and players receive their respective $FU earnings based on their share of total beans earned during the Epoch.
 
-### 70% of $FU allocation and bean multipliers
-
-The top 50 players in the Season receive 70% of the $FU allocation. The $FU share is calculated based on the share of the total beans each player earned after a multiplier is applied. It is important to note that this only applied to the top 50 players in the Season.
-
-The multiplier formula is a simple quadratic function `f(x) = a * x^2 + b`, with coeficients calculated so that `f(bottomXp) = minMultiplier and f(topXp) = maxMultiplier`. Here's a simple JavaScript implementation:
-
-```
-function multiplierByXp(xp, bottomXp, topXp) {
-    let minMultiplier = 1;
-    let maxMultiplier = 5;
-
-    let xpRange = topXp - bottomXp;
-    let c = (xpRange * xpRange) / (maxMultiplier - minMultiplier);
-    let xpAdjusted = xp - bottomXp;
-
-    return minMultiplier + xpAdjusted * xpAdjusted / c;
-}
-```
-
-#### Example:
-
-Given the following final results of the Epoch:
-
-- Player 1: 30,000 XP, 500 Beans
-- Player 2: 20,000 XP, 1,000 Beans
-- Player 50: 500 XP, 3,000 Beans
-
-The following multiplier would be applied:
-
-1. Calculate the XP range:
-   `xpRange = 30,000 - 500 = 29,500`
-2. Compute the constant \( c \):
-   `c = (29,500 * 29,500) / (5 - 1) = 870,250,000 / 4 = 217,562,500`
-
-### For Player 1:
-
-- Adjusted XP: `xpAdjusted = 30,000 - 500 = 29,500`
-- Multiplier: `multiplier = 1 + (29,500 * 29,500 / 217,562,500) = 5`
-- Final Bean Count: `500 * 5 = 2,500`
-
-### For Player 2:
-
-- Adjusted XP: `xpAdjusted = 20,000 - 500 = 19,500`
-- Multiplier: `multiplier = 1 + (19,500 * 19,500 / 217,562,500) = 2.74`
-- Final Bean Count: `1,000 * 2.74 = 2,740`
-
-### For Player 50:
-
-- Adjusted XP: `xpAdjusted = 500 - 500 = 0`
-- Multiplier: `multiplier = 1 + (0 * 0 / 217,562,500) = 1`
-- Final Bean Count: `3,000 * 1 = 3,000`
-
-At the end of a Season (currently 3 months) all XP is reset.
-
-During the initial test phase of rewards, 100,000 $FU is being allocated per Epoch with plans to increase this amount as $FU utility is further developed.
-
-### 20% of $FU Allocation
-
-All remaining players in the game will receive $FU relative to their share of earned beans. This excludes the top 50 players, which are only included in the 70% allocation.
+A Season has 12 Epochs and a Season XP (SXP) which is used to reward users at the end of the Season. SXP is reset at the start of every Season.
