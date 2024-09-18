@@ -45,11 +45,11 @@ The $FU share is calculated based on the share of the total beans each player ea
 
 #### Rank Multiplier
 
-The multiplier formula is a simple quadratic function `f(x) = a * x^2 + b`, with coeficients calculated so that `f(bottomXp) = minMultiplier and f(topXp) = maxMultiplier`. Here's a simple JavaScript implementation:
+The Rank Multiplier formula is a simple quadratic function `f(x) = a * x^2 + b`, with coeficients calculated so that `f(bottomXp) = minMultiplier and f(topXp) = maxMultiplier`. Here's a simple JavaScript implementation:
 
 ```
 function multiplierByXp(xp, bottomXp, topXp) {
-    let minMultiplier = 1;
+    let minMultiplier = 0;
     let maxMultiplier = 5;
 
     let xpRange = topXp - bottomXp;
