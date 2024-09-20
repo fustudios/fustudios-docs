@@ -102,7 +102,7 @@ During the initial test phase of rewards, 100,000 $FU is being allocated per Epo
 Players who hold a Game Pass Pro will earn a multiplier based on how long they have the GPP activated for. Below is the formula for the multiplier:
 
 ```
-AccrualSpeed = 2000000;
+AccrualSpeed = 14;
 Multiplier = 5;
 
 AccruedAmount = Days / (Days + AccrualSpeed)
