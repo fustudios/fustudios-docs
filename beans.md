@@ -2,7 +2,7 @@ Collect beans while you play OpenSeason in exchange for $FU Money at the end of 
 
 ## Beans worth dying for
 
-Each Epoch a continuous amount of beans will be made available to be collected by playing OpenSeason. At the end of each Epoch players can exchange their earned beans for $FU money.
+Each Epoch a continuous amount of beans will be made available to be collected by playing OpenSeason. At the end of each Epoch $FU money is distributed to players relative to their bean share.
 
 Beans are then reset to zero at the beginning of the next epoch allowing all players to start equally.
 
@@ -10,7 +10,7 @@ Beans are then reset to zero at the beginning of the next epoch allowing all pla
 
 If you are a Game Pass Pro holder, you earn 100% of the beans you collect. If you are a Game Pass holder—you used an access code to play the game—20% of the beans you collect are actually earned by the Game Pass Pro associated with your Game Pass.
 
-The only way to earn 100% of the beans you collect is by holding a Game Pass Pro.
+The only way to earn 100% of the valid beans you collect is by holding a Game Pass Pro.
 
 ### Beans collected vs beans earned.
 
@@ -41,7 +41,7 @@ In short. The less interaction (Death or Kills) during the match and the more be
 
 ### Bean Multipliers
 
-The $FU share is calculated based on the share of the total beans each player earned after different multipliers are applied. It is important to note that the multipliers are applied at the end of each match, this means that multipliers are constantly changing during the Epoch and are affecting your earned beans in real time.
+A player's **$FU share** is calculated based on the total beans each player earned after different multipliers are applied. It is important to note that the multipliers are applied at the end of each match, this means that multipliers are constantly changing during the Epoch and are affecting your shares in real time.
 
 #### Rank Multiplier
 
@@ -64,9 +64,9 @@ function multiplierByXp(xp, bottomXp, topXp) {
 
 Given the following results of a match with players having the current XP at the current Epoch with 100 active players:
 
-- Player 1: 30,000 XP, 5 Beans
-- Player 2: 20,000 XP, 10 Beans
-- Player 100: 500 XP, 30 Beans
+- Player 1: 30,000 XP, 5 Earned Beans
+- Player 2: 20,000 XP, 10 Earned Beans
+- Player 100: 500 XP, 30 Earned Beans
 
 The following multiplier would be applied:
 
@@ -79,19 +79,19 @@ The following multiplier would be applied:
 
 - Adjusted XP: `xpAdjusted = 30,000 - 500 = 29,500`
 - Multiplier: `multiplier = 1 + (29,500 * 29,500 / 217,562,500) = 5`
-- Earned Beans: `5 * 5 = 25`
+- Shares: `5 * 5 = 25`
 
 ### For Player 2:
 
 - Adjusted XP: `xpAdjusted = 20,000 - 500 = 19,500`
 - Multiplier: `multiplier = 1 + (19,500 * 19,500 / 217,562,500) = 2.74`
-- Earned Beans: `10 * 2.74 = 20.74`
+- Shares: `10 * 2.74 = 20.74`
 
 ### For Player 100:
 
 - Adjusted XP: `xpAdjusted = 500 - 500 = 0`
 - Multiplier: `multiplier = 1 + (0 * 0 / 217,562,500) = 1`
-- Earned Beans: `30 * 1 = 30`
+- Shares: `30 * 1 = 30`
 
 The EXP (Epoch XP) is reset at the end of each Epoch.
 
