@@ -112,6 +112,53 @@ EarnedMultiplier = Multiplier  * AccruedAmount;
 
 Where `Days` is how long the GPP has been active for.
 
+Below is a table with multipliers accrued at different time frames:
+
+| **Weeks** | **Multiplier** | **Weeks** | **Multiplier** |
+| --------- | -------------- | --------- | -------------- |
+| **1**     | 1.67           | **20**    | 4.55           |
+| **2**     | 2.50           | **30**    | 4.69           |
+| **3**     | 3.00           | **40**    | 4.76           |
+| **4**     | 3.33           | **50**    | 4.81           |
+| **5**     | 3.57           | **60**    | 4.84           |
+| **6**     | 3.75           | **70**    | 4.86           |
+| **7**     | 3.89           | **80**    | 4.88           |
+| **8**     | 4.00           | **90**    | 4.89           |
+| **9**     | 4.09           | **100**   | 4.90           |
+| **10**    | 4.17           | **500**   | 4.98           |
+
+#### $FU Multiplier
+
+The $FU Multiplier works similarly as the GPP Multiplier with the difference that instead of time, the qualifier for determining the multiplier is quantity.
+The more $FU is in a player’s wallet at the end of a match the closer the multiplier reaches its maximum value.
+
+Below is the formula for the $FU Multiplier:
+
+```
+Constants:
+AccrualSpeed = 100000;
+Multiplier = 5;
+
+Formulas:
+AccruedAmount = TokenBalance / TokenBalance + AccrualParameter)
+EarnedMultiplier = Multiplier  * AccruedAmount;
+```
+
+Below is a table with multipliers accrued at different $FU amounts:
+
+| **$FU**     | **Multiplier** | **$FU**       | **Multiplier** |
+| ----------- | -------------- | ------------- | -------------- |
+| **10,000**  | 0.45           | **200,000**   | 3.33           |
+| **20,000**  | 0.83           | **300,000**   | 3.75           |
+| **30,000**  | 1.15           | **400,000**   | 4.00           |
+| **40,000**  | 1.43           | **500,000**   | 4.17           |
+| **50,000**  | 1.67           | **600,000**   | 4.29           |
+| **60,000**  | 1.88           | **700,000**   | 4.38           |
+| **70,000**  | 2.06           | **800,000**   | 4.44           |
+| **80,000**  | 2.22           | **900,000**   | 4.50           |
+| **90,000**  | 2.37           | **1,000,000** | 4.55           |
+| **100,000** | 2.50           | **5,000,000** | 4.90           |
+
 ### $FU Distribution
 
 At the end of each Epoch, the final bean earned amount is calculated and $FU is distributed to all wallets.
