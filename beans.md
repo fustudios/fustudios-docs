@@ -49,6 +49,7 @@ The Rank Multiplier formula is a simple quadratic function `f(x) = a * x^2 + b`,
 
 ```
 function multiplierByXp(xp, bottomXp, topXp) {
+    let baseMultiplier = 1;
     let minMultiplier = 0;
     let maxMultiplier = 5;
 
@@ -56,7 +57,7 @@ function multiplierByXp(xp, bottomXp, topXp) {
     let c = (xpRange * xpRange) / (maxMultiplier - minMultiplier);
     let xpAdjusted = xp - bottomXp;
 
-    return minMultiplier + xpAdjusted * xpAdjusted / c;
+    return baseMultiplier + minMultiplier + xpAdjusted * xpAdjusted / c;
 }
 ```
 
@@ -73,25 +74,25 @@ The following multiplier would be applied:
 1. Calculate the XP range:
    `xpRange = 30,000 - 500 = 29,500`
 2. Compute the constant \( c \):
-   `c = (29,500 * 29,500) / (5 - 1) = 870,250,000 / 4 = 217,562,500`
+   `c = (29,500 * 29,500) / (5 - 0) = 870,250,000 / 5 = 174,050,000`
 
 ### For Player 1:
 
 - Adjusted XP: `xpAdjusted = 30,000 - 500 = 29,500`
-- Multiplier: `multiplier = 1 + (29,500 * 29,500 / 217,562,500) = 5`
-- Shares: `5 * 5 = 25`
+- Multiplier: `multiplier = 1 + 0 + (29,500 * 29,500 / 174,050,000) = 6`
+- Shares: `5 * 6 = 30`
 
 ### For Player 2:
 
 - Adjusted XP: `xpAdjusted = 20,000 - 500 = 19,500`
-- Multiplier: `multiplier = 1 + (19,500 * 19,500 / 217,562,500) = 2.74`
-- Shares: `10 * 2.74 = 20.74`
+- Multiplier: `multiplier = 1 + 0 +(19,500 * 19,500 / 174,050,000) = 3.18`
+- Shares: `10 * 3.18 = 31.80`
 
 ### For Player 100:
 
 - Adjusted XP: `xpAdjusted = 500 - 500 = 0`
-- Multiplier: `multiplier = 1 + (0 * 0 / 217,562,500) = 1`
-- Shares: `30 * 1 = 30`
+- Multiplier: `multiplier = 1 + 0 + (0 * 0 / 174,050,000) = 1`
+- Sharesx: `30 * 1 = 30`
 
 The EXP (Epoch XP) is reset at the end of each Epoch.
 
