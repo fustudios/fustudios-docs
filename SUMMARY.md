@@ -12,4 +12,5 @@
 - [Access](access.md)
 - [Beans](beans.md)
 - [Matches](osMatches.md)
+- [Rules](rules.md)
 <!-- [Characters and Communities](characters.md) -->
