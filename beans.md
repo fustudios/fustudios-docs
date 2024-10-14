@@ -45,19 +45,16 @@ A player's **$FU share** is calculated based on the total beans each player earn
 
 #### Rank Multiplier
 
-The Rank Multiplier formula is a simple quadratic function `f(x) = a * x^2 + b`, with coeficients calculated so that `f(bottomXp) = minMultiplier and f(topXp) = maxMultiplier`. Here's a simple JavaScript implementation:
+The Rank Multiplier formula is a simple linear function of your Epoch XP,
+Here's a simple JavaScript implementation:
 
 ```
+ const baseMultiplier = 1;
+
 function multiplierByXp(xp, bottomXp, topXp) {
-    let baseMultiplier = 1;
-    let minMultiplier = 0;
-    let maxMultiplier = 5;
-
-    let xpRange = topXp - bottomXp;
-    let c = (xpRange * xpRange) / (maxMultiplier - minMultiplier);
-    let xpAdjusted = xp - bottomXp;
-
-    return baseMultiplier + minMultiplier + xpAdjusted * xpAdjusted / c;
+    let maxMultiplier = 2;
+    let ratio =  (xp - bottomXp) / (topXp - bottomXp);
+    return baseMultiplier + maxMultiplier * ratio;
 }
 ```
 
@@ -71,28 +68,23 @@ Given the following results of a match with players having the current XP at the
 
 The following multiplier would be applied:
 
-1. Calculate the XP range:
-   `xpRange = 30,000 - 500 = 29,500`
-2. Compute the constant \( c \):
-   `c = (29,500 * 29,500) / (5 - 0) = 870,250,000 / 5 = 174,050,000`
-
 ### For Player 1:
 
-- Adjusted XP: `xpAdjusted = 30,000 - 500 = 29,500`
-- Multiplier: `multiplier = 1 + 0 + (29,500 * 29,500 / 174,050,000) = 6`
-- Shares: `5 * 6 = 30`
+- Ratio: `ratio = (30,000 - 500) / (30,000 - 500) = 1`
+- Multiplier: `multiplier = 1 + 1 * 2 = 3`
+- Shares: `15 * 3 = 45`
 
 ### For Player 2:
 
-- Adjusted XP: `xpAdjusted = 20,000 - 500 = 19,500`
-- Multiplier: `multiplier = 1 + 0 +(19,500 * 19,500 / 174,050,000) = 3.18`
-- Shares: `10 * 3.18 = 31.80`
+- Ratio: `ratio = (20,000 - 500) /  (30,000 - 500) = 0.66`
+- Multiplier: `multiplier = 1 + 0.66 * 2  = 2.32`
+- Shares: `10 * 2.32 = 23.2`
 
 ### For Player 100:
 
-- Adjusted XP: `xpAdjusted = 500 - 500 = 0`
-- Multiplier: `multiplier = 1 + 0 + (0 * 0 / 174,050,000) = 1`
-- Sharesx: `30 * 1 = 30`
+- Ratio: `ratio = `(500 - 500) / (30,000 - 500) = 0`
+- Multiplier: `multiplier = 1 + 0 * 2 = 1`
+- Shares: `30 * 1 = 30`
 
 The EXP (Epoch XP) is reset at the end of each Epoch.
 
